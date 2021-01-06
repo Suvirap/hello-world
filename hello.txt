@@ -1,1 +1,2 @@
 wold
+A new line in hello.txt!
