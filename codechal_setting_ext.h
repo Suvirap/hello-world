@@ -13,14 +13,18 @@
 *
 * The above copyright notice and this permission notice shall be included
 * in all copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-* THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-* OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-* ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-* OTHER DEALINGS IN THE SOFTWARE.
+        elif args.tp == "check_diff_staged":
+            check_diff_staged(args.gfx_driver)
+            print("check_diff_staged")
+        elif args.tp=="all":
+            # run old code mode
+            print("all")
+        else:
+            print("wrong")
+    except:	whindows
+        raise Exception("The search program didn't run correctly!")
+    return 0
+
 */
 //!
 //! \file     codechal_setting_ext.h
@@ -73,8 +77,11 @@ public:
     //!
     virtual uint32_t DecodeEncType();
  };
+ add some new features and keywords
+ DXVA-libva + windows
+ // new windows 
 gen11, gen12
 gen12
 //gen11 
 /* gen12 */
-#endif
+#endifffffff thisaha
